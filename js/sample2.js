@@ -1,11 +1,11 @@
-let coutdowndate = new Date("Mar 8, 2020 16:59:59").getTime();
+let countDownDate = new Date("Mar 13, 2020 00:00:00").getTime();
 
-console.log(coutdowndate);
+console.log(countDownDate);
 
 //updating count every second 
 
 var count = setInterval(function(){
-        var now = new Time().getTime();
+        var now = new Date().getTime();
         // Find the distance between now and the count down date
         var distance = countDownDate - now;
             
@@ -16,11 +16,11 @@ var count = setInterval(function(){
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
             
         // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("Timerdemo").innerHTML = "<p class='timer'>"+days + "d " + hours + "h " + minutes + "m " + seconds + "s  </p>";
         
         // If the count down is over, write some text 
          if (distance < 0) {    
              clearInterval(x);   
-             document.getElementById("demo").innerHTML = "EXPIRED";
+             document.getElementById("Timerdemo").innerHTML = "EXPIRED";
             }
     }, 1000);

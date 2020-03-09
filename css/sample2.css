@@ -248,3 +248,10 @@ a.article, a.article:hover {
     }
 
 }
+#Timerdemo{background-color: #c6c2fd;}
+p.timer {
+    text-align: center;
+    font-size:3.5rem;
+    text-transform: uppercase;
+    color: #141415;
+}
