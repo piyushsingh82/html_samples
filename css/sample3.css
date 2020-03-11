@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+=======
 /*    DEMO STYLE */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
@@ -262,4 +279,5 @@ img {
     text-align:center;
     vertical-align: middle;
     border-style: none;
+>>>>>>> 53a58915d4de316c8bdd7d33a4567a1b335a60cc
 }

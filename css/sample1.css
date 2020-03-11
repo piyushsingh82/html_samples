@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+=======
 
 
 /*Counter css for the introduction section*/
@@ -87,3 +103,4 @@
   border-color: #5950c3;
   color:#fff;
 }
+>>>>>>> 53a58915d4de316c8bdd7d33a4567a1b335a60cc
