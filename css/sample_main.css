@@ -424,6 +424,7 @@ img {
    .btn-default{
     background-color: #483cd6;
     border-color: #483cd6;
+    color:#fff;
   }
   
   .btn-danger:active:focus,
@@ -432,4 +433,10 @@ img {
   .btn-default:active:hover{
     background-color: #483cd6!important;
     border-color: #483cd6!important;
+    color:#fff;
+  }
+  
+  form .input-group{
+    width: 500px;
+    margin: 0 auto;
   }
