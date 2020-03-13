@@ -169,8 +169,9 @@ a.article, a.article:hover {
 #sidebarCollapse {
   width: 40px;
   height: 40px;
-  background: #f8f9fa;
+  background: transparent;
   cursor: pointer;
+  border: 1px solid #fff;
 }
 
 #sidebarCollapse span {
@@ -185,12 +186,14 @@ a.article, a.article:hover {
 
 #sidebarCollapse span:first-of-type {
   transform: rotate(45deg) translate(2px, 2px);
+  background: #fff;
 }
 #sidebarCollapse span:nth-of-type(2) {
   opacity: 0;
 }
 #sidebarCollapse span:last-of-type {
   transform: rotate(-45deg) translate(1px, -1px);
+  background: #fff;
 }
 
 
@@ -198,6 +201,7 @@ a.article, a.article:hover {
   transform: none;
   opacity: 1;
   margin: 5px auto;
+  background: #fff;
 }
 
 
