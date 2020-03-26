@@ -6,36 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Collapsible sidebar menu</title>
-<style >
-    .parallax {
-  /* The image used */
-  background-image: url("https://i.picsum.photos/id/237/1600/700.jpg");
 
-  /* Set a specific height */
-  min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax1{
-background-image:url("img/img_parallax.jpg");
-  /* Set a specific height */
-  min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-</style>
  <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/sample2.css">
+    <link rel="stylesheet" href="css/menupositions.css">
+    <link rel="stylesheet" href="css/parallex.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -87,9 +63,6 @@ background-image:url("img/img_parallax.jpg");
     
 </div>
 <div class="parallax1"></div>
-            
-             
-           
         </div>
 
 </div>
@@ -99,15 +72,8 @@ background-image:url("img/img_parallax.jpg");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/sample2.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function () {
-          $('#sidebarCollapse').on('click', function () {
-              $('#sidebar').toggleClass('active');
-              $(this).toggleClass('active');
-          });
-      });
-  </script>
+  <script type="text/javascript" src="js/main.js"></script>
+ 
 </body>
 
 </html>

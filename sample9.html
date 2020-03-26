@@ -10,11 +10,66 @@
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/sample2.css">
+    <link rel="stylesheet" href="css/menupositions.css">
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <style type="text/css" >
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    </style>
 </head>
 
 <body>
@@ -68,13 +123,49 @@
                                 <a class="nav-link" href="Sample10.html">Gaming</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Sample11.html">Government</a>
+                                <a class="nav-link" href="comingsoon.html">coming soon</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-         
+            <h1>The main concept is you should have 4 coloums </h1>
+         <div class="row">
+             <div class="column">
+                 
+                 <img src="img/paris.jpg" style="width:100%"/>
+                 <img src="img/mist.jpg" style="width:100%"/>
+                 <img src="img/ocean.jpg" style="width:100%"/>
+                 <img src="img/wedding.jpg" style="width:100%"/>
+                 <img src="img/underwater.jpg" style="width:100%"/>
+                 <img src="img/rocks.jpg" style="width:100%"/>
+             </div>
+             <div class="column">
+                <img src="img/wedding.jpg" style="width:100%"/>
+                <img src="img/underwater.jpg" style="width:100%"/>
+                <img src="img/rocks.jpg" style="width:100%"/>
+                <img src="img/paris.jpg" style="width:100%"/>
+                <img src="img/mist.jpg" style="width:100%"/>
+                <img src="img/ocean.jpg" style="width:100%"/>
+            </div>
+            <div class="column">
+                <img src="img/paris.jpg" style="width:100%"/>
+                <img src="img/mist.jpg" style="width:100%"/>
+                <img src="img/ocean.jpg" style="width:100%"/>
+                <img src="img/wedding.jpg" style="width:100%"/>
+                <img src="img/underwater.jpg" style="width:100%"/>
+                <img src="img/rocks.jpg" style="width:100%"/>
+                
+            </div>
+            <div class="column">
+               <img src="img/wedding.jpg" style="width:100%"/>
+               <img src="img/underwater.jpg" style="width:100%"/>
+               <img src="img/rocks.jpg" style="width:100%"/>
+               <img src="img/paris.jpg" style="width:100%"/>
+               <img src="img/mist.jpg" style="width:100%"/>
+               <img src="img/ocean.jpg" style="width:100%"/>
+           </div>
+         </div>
         </div>
 
 </div>
@@ -86,14 +177,8 @@
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-                $(this).toggleClass('active');
-            });
-        });
-    </script>
+    <script type="text/javascript"  src="js/main.js"></script>
+
 </body>
 
 </html>

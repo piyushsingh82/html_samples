@@ -1,4 +1,4 @@
-let countDownDate = new Date("Mar 13, 2020 00:00:00").getTime();
+let countDownDate = new Date("Mar 31, 2020 00:00:00").getTime();
 
 console.log(countDownDate);
 
@@ -17,9 +17,9 @@ var count = setInterval(function(){
             
         // Output the result in an element with id="demo"
         document.getElementById("Timerdemo").innerHTML = "<p class='timer'>"+days + "d " + hours + "h " + minutes + "m " + seconds + "s  </p>";
-        
+        console.log(distance);
         // If the count down is over, write some text 
-         if (distance < 0) {    
+         if (distance <= 0) {    
              clearInterval(x);   
              document.getElementById("Timerdemo").innerHTML = "EXPIRED";
             }
